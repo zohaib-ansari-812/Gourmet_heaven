@@ -1,0 +1,26 @@
+{
+  "name": "gourmet_heaven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zohaib-ansari-812/Gourmet_heaven.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zohaib-ansari-812/Gourmet_heaven/issues"
+  },
+  "homepage": "https://github.com/zohaib-ansari-812/Gourmet_heaven#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0",
+    "node": "^22.22.1"
+  }
+}
