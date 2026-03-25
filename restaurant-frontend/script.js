@@ -779,7 +779,7 @@ function scrollToContact() {
         const password = document.getElementById('login-password').value;
         
         // Make API request to backend
-        fetch('http://localhost:5000/api/auth/login', {
+        fetch('https://gourmetheaven-production.up.railway.app/api/auth/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -827,7 +827,7 @@ function scrollToContact() {
         }
         
         // Make API request to backend
-        fetch('http://localhost:5000/api/auth/register', {
+        fetch('https://gourmetheaven-production.up.railway.app/api/auth/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -1213,7 +1213,7 @@ function scrollToContact() {
     }
 
     // ============== API BASE URL ==============
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://gourmetheaven-production.up.railway.app/api';
 
 // ============== AUTH FUNCTIONS ==============
 
