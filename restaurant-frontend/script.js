@@ -156,8 +156,8 @@ function proceedToCheckout() {
         
         orderHTML += `
             <div class="order-item">
-                <span>₹{item.name} × ₹{item.quantity}</span>
-                <span>₹{itemTotal.toFixed(2)}</span>
+                <span>₹${item.name} × ${item.quantity}</span>
+                <span>₹${itemTotal.toFixed(2)}</span>
             </div>
         `;
     });
@@ -167,7 +167,7 @@ function proceedToCheckout() {
         orderHTML += `
             <div class="order-item">
                 <span>Delivery Fee</span>
-                <span>₹{deliveryFee.toFixed(2)}</span>
+                <span>₹${deliveryFee.toFixed(2)}</span>
             </div>
         `;
     }
@@ -1214,6 +1214,7 @@ function scrollToContact() {
 
     // ============== API BASE URL ==============
 const API_BASE_URL = 'https://gourmetheaven-production.up.railway.app/api';
+
 
 // ============== AUTH FUNCTIONS ==============
 
